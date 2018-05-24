@@ -1,0 +1,153 @@
+<!--my HTML-CSS page
+What do I want to create?
+RSS Feed
+Twitter Feed
+Color scheme
+Picture host
+sliding style page view
+--->
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div.container {
+    width: 100%;
+    border: 1px solid gray;
+}
+
+header, footer {
+    padding: 1em;
+    color: White;
+    background-color: darkgray;
+    clear: left;
+    text-align: center;
+}
+h1   {
+  width: auto;
+  color: White;
+  font-size: 3em;
+  padding:1%;
+  text-align: center;
+}
+h2   {
+  width: 50%;
+  color: White;
+  font-size: 3em;
+  padding:1%;
+  text-align: left;
+}
+nav.l {
+    float: left;
+    max-width: 220px;
+    margin: 0;
+    padding: 1em;
+}
+
+nav.r {
+    float: right;
+    max-width: 220px;
+    margin: 0;
+    padding: 1em;
+}
+
+nav.l ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav.r ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul a {
+    background-color: lightgray;
+    text-decoration: none;
+}
+
+article {
+    background-color: lightgray;
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    height: 600px;
+    overflow: hidden;
+}
+p2   {
+  color: dimgray;
+  font-size: 1.2em;
+}
+
+a:link {
+    color: darkcyan;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: purple;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: powderblue;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<header>
+   <h1>Code Learning HTML & CSS</h1>
+</header>
+
+<nav class="l">
+  <a class="twitter-timeline" data-height="600" href="https://twitter.com/Mr_DamienB?ref_src=twsrc%5Etfw">Tweets by Mr_DamienB</a>
+  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8">
+  </script>
+
+</nav>
+
+<nav class="r">
+  <a class="twitter-timeline"  href="https://twitter.com/hashtag/InspireVets" data-widget-id="999534570943930368">#InspireVets Tweets</a>
+  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+  <!--<ul>
+    <li><a href="#">London</a></li>
+    <li><a href="#">Paris</a></li>
+    <li><a href="#">Tokyo</a></li>
+  </ul>-->
+</nav>
+
+<article>
+  <h2>
+    <img src="https://i1.wp.com/lifebydamien.files.wordpress.com/2016/05/20150110_172457_richtonehdr.jpg?ssl=1&w=450"
+    alt="Clouds"; height= 80px>
+    Clouded
+  </h2>
+
+  <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
+  This is a sameple paragraph to right of Twitter Feed.
+  <p2>This is text with a user-defined 'p2' element.</p2>
+  <br>Using the Atom text-editor,
+  I want to create a sample Dashboard,
+  <br>with visuals that pull data
+  from defined sources to create simple visuals.
+  </p2></article>
+
+<footer>Lots of learning thanks to <a href="www.w3schools.com"> W3Schools.com </a></footer>
+
+</div>
+
+</body>
+</html>
