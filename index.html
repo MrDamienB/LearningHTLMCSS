@@ -4,35 +4,59 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
+body {
+  font-family: sans-serif;
+}
+
 div.container {
     width: 100%;
     border: 1px solid gray;
 }
-
+.parallax1 {
+  background-image:url("https://i1.wp.com/lifebydamien.files.wordpress.com/2018/05/pull-gaurd.jpg?ssl=1&w=450");
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+.parallax2 {
+  background-image:url("https://i2.wp.com/lifebydamien.files.wordpress.com/2018/05/the-winner-is.jpg?ssl=1&w=450");
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat:no-repeat;
+  background-size: cover;
+}
 header, footer {
+    background-color: darkgray;
+    font-family: sans-serif;
     padding: 1em;
     clear: left;
     text-align: center;
 }
-.bg {
-  background-image:url('https://i1.wp.com/lifebydamien.files.wordpress.com/2016/05/20150110_172457_richtonehdr.jpg?ssl=1&w=450');
+/*.bg {
+  background-image:url("https://i1.wp.com/lifebydamien.files.wordpress.com/2016/05/20150110_172457_richtonehdr.jpg?ssl=1&w=450");
   height: 40%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-
+-->
+*/
 h1   {
   width: auto;
   color: White;
+  font-family: sans-serif;
   font-size: 3em;
   padding:1%;
   text-align: center;
 }
 h2   {
-  width: 50%;
+  width: auto;
   color: White;
-  font-size: 3em;
+  font-family: sans-serif;
+  font-size: 1.5em;
   padding:1%;
   text-align: left;
 }
@@ -75,6 +99,7 @@ article {
 }
 p2   {
   color: dimgray;
+  font-family: sans-serif;
   font-size: 1.2em;
 }
 
@@ -112,6 +137,8 @@ a:active {
 </header>
 </div>
 
+<div class="parallax1"></div>
+
 <nav class="l">
   <a class="twitter-timeline" data-height="600" href="https://twitter.com/Mr_DamienB?ref_src=twsrc%5Etfw">Tweets by Mr_DamienB</a>
   <script async src="https://platform.twitter.com/widgets.js" charset="utf-8">
@@ -123,28 +150,28 @@ a:active {
   <a class="twitter-timeline"  href="https://twitter.com/hashtag/InspireVets" data-widget-id="999534570943930368">#InspireVets Tweets</a>
   <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 
-  <!--<ul>
-    <li><a href="#">London</a></li>
-    <li><a href="#">Paris</a></li>
-    <li><a href="#">Tokyo</a></li>
-  </ul>-->
 </nav>
 
 <article>
   <h2>
     <img src="https://i1.wp.com/lifebydamien.files.wordpress.com/2016/05/20150110_172457_richtonehdr.jpg?ssl=1&w=450"
     alt="Clouds"; height= 80px>
-    Clouded
+    Testing Parallax and Image quality
   </h2>
 
-  <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
-  This is a sameple paragraph to right of Twitter Feed.
-  <p2>This is text with a user-defined 'p2' element.</p2>
-  <br>Using the Atom text-editor,
-  I want to create a sample Dashboard,
-  <br>with visuals that pull data
-  from defined sources to create simple visuals.
+  <p>I will need to find some better images so that they show more clearly;
+    I'm not sure what is going on with the grainy photos.
+    This is a sameple paragraph to right of Twitter Feed.</p>
+  <p2>This is p2 element text. I can create changing parallax backgrounds if I
+    identify them as 'parallax1, parallax2, etc'.
+  <br>
+  <br> As a goal, for work applications, Using the Atom text-editor, html,
+  CSS, and query language (likely sql), I want to create a sample dashboard,
+  even if it is only pulling from a static database (Google sheet).</p2>
+
   </p2></article>
+
+<div class="parallax2"></div>
 
 <footer>Lots of learning thanks to <a href="www.w3schools.com"> W3Schools.com </a></footer>
 
