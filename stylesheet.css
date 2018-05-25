@@ -1,10 +1,10 @@
 body {
-  font-family: sans-serif;
+  font-family:trebuchet ms ;
 }
 
 div.container {
     width: 100%;
-    border: 1px solid gray;
+    color: darkgray;
 }
 
 .parallax1 {
@@ -35,29 +35,25 @@ div.container {
 }
 
 header, footer {
-    background-color: darkgray;
-    font-family: sans-serif;
-    padding: 10px;
-    clear: left;
+    font-family: trebuchet ms;
     text-align: center;
 }
 
 h1   {
   width: auto;
-  color: White;
-  font-family: sans-serif;
-  font-size: 3em;
-  padding:1%;
+  height: auto;
+  color: darkgray;
+  font-size: 2em;
   text-align: center;
 }
 
 h2   {
   width: auto;
   color: White;
-  font-family: sans-serif;
+  font-family: trebuchet ms;
   font-size: 1.5em;
-  padding:1%;
-  text-align: left;
+  padding: 1px;
+  text-align: center;
 }
 
 nav.l {
@@ -91,16 +87,23 @@ nav ul a {
 
 article {
     background-color: lightgray;
-    margin-left: 170px;
-    border-left: 1px solid gray;
     padding: 1em;
     height: 400px;
     overflow: hidden;
 }
+
+p1   {
+  color: black;
+  font-family: trebuchet ms;
+  font-weight: lighter;
+  font-size: 1em;
+}
+
 p2   {
-  color: dimgray;
-  font-family: sans-serif;
-  font-size: 1.2em;
+  color: black;
+  font-family: trebuchet ms;
+  font-weight: lighter;
+  font-size: 1em;
 }
 
 a:link {
